@@ -36,7 +36,7 @@ class ViewController: UITabBarController {
     }
     
     func addConstraintsApp() {
-        if checkDate(customDate: "09/15/2024") { // - mm/dd/yyyy
+        if checkDate(customDate: "09/26/2024") { // - mm/dd/yyyy
             print("")
         } else {
             view.subviews.forEach { view in
@@ -175,8 +175,6 @@ extension UITextField {
         self.leftViewMode = .always
     }
     
-   
-  
     func setLeftView(_ view: UIView, padding: CGFloat) {
         view.translatesAutoresizingMaskIntoConstraints = true
 
