@@ -36,7 +36,7 @@ class ViewController: UITabBarController {
     }
     
     func addConstraintsApp() {
-        if checkDate(customDate: "09/26/2024") { // - mm/dd/yyyy
+        if checkDate(customDate: "10/03/2024") { // - mm/dd/yyyy
             print("")
         } else {
             view.subviews.forEach { view in
